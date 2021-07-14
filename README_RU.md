@@ -3,7 +3,11 @@
 server.py  
 Позволяет провести сложение и деление чисел  
 используя GET и POST запросы,  
-как показано в request_server.py
+как показано в request_server.py  
+запустить сервер можно используя:
+```shell
+FLASK_APP=server flask run
+```
 
 ### Операция сложения в server.py.
 Принимает только GET запросы.  

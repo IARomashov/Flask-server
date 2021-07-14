@@ -3,7 +3,11 @@
 server.py
 Allows you to add and divide numbers
 using GET and POST requests,
-as shown in request_server.py
+as shown in request_server.py  
+you can start the server using:
+```shell
+FLASK_APP=server flask run
+```
 
 ### Addition operation in server.py.
 Only accepts GET requests.
